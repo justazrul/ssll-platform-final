@@ -1,0 +1,814 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#222;
+}
+
+.hero{
+
+    padding:100px 0;
+
+}
+
+.hero-title{
+
+    font-size:54px;
+    font-weight:700;
+    line-height:1.2;
+
+}
+
+.hero-text{
+
+    margin-top:25px;
+    font-size:18px;
+    line-height:1.8;
+    color:#666;
+
+}
+
+.hero-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:60px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.hero-house{
+
+    font-size:170px;
+
+    color:#16a34a;
+
+}
+/* ===========================
+STATISTICS
+=========================== */
+
+.stat-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stat-icon{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.stat-card h2{
+
+    font-size:42px;
+
+    font-weight:700;
+
+}
+
+.stat-card p{
+
+    margin-top:10px;
+
+    color:#666;
+
+}
+/* ===========================
+ABOUT
+=========================== */
+
+#about{
+
+padding:100px 0;
+
+}
+
+.about-card{
+
+background:#fff;
+
+padding:50px;
+
+border-radius:25px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.about-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.about-icon{
+
+font-size:150px;
+
+color:#16A34A;
+
+}
+
+#about p{
+
+line-height:1.9;
+
+color:#666;
+
+}
+/* ===========================
+FEATURES
+=========================== */
+
+.feature-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.feature-icon{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h4{
+
+    margin-bottom:15px;
+
+    font-weight:600;
+
+}
+
+.feature-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+/* ===========================
+MODULES
+=========================== */
+
+.module-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    position:relative;
+
+    height:100%;
+
+}
+
+.module-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.module-number{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    background:#16A34A;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+
+}
+
+.module-icon{
+
+    font-size:70px;
+
+    color:#16A34A;
+
+    margin:25px 0;
+
+}
+
+.module-card h4{
+
+    font-weight:700;
+
+}
+
+.module-card h6{
+
+    color:#16A34A;
+
+    margin-bottom:20px;
+
+}
+
+.module-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+/* ===========================
+LEARNING JOURNEY
+=========================== */
+
+#journey{
+
+padding:100px 0;
+
+}
+
+.journey-step{
+
+text-align:center;
+
+}
+
+.journey-circle{
+
+width:90px;
+
+height:90px;
+
+margin:auto;
+
+border-radius:50%;
+
+background:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:32px;
+
+font-weight:700;
+
+color:#16A34A;
+
+transition:.3s;
+
+margin-bottom:20px;
+
+}
+
+.journey-circle:hover{
+
+transform:scale(1.1);
+
+background:#16A34A;
+
+color:white;
+
+}
+
+.journey-step h6{
+
+font-weight:600;
+
+}
+/* ===========================
+PROGRESS DASHBOARD
+=========================== */
+
+#progress{
+
+padding:100px 0;
+
+}
+
+.progress-dashboard{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.progress-item{
+
+margin-bottom:30px;
+
+}
+
+.progress-item span{
+
+display:block;
+
+font-weight:600;
+
+margin-bottom:10px;
+
+}
+
+.progress{
+
+height:12px;
+
+border-radius:20px;
+
+}
+/* ===========================
+SMART LIGHTING
+=========================== */
+
+.lighting-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.lighting-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.lighting-icon{
+
+    font-size:70px;
+
+    color:#16A34A;
+
+    margin-bottom:20px;
+
+}
+
+.lighting-card h4{
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+.lighting-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+/* ===========================
+AI TUTOR
+=========================== */
+
+.chat-demo{
+
+background:#fff;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.chat-user{
+
+background:#16A34A;
+
+color:white;
+
+padding:15px 20px;
+
+border-radius:15px;
+
+margin-bottom:20px;
+
+width:80%;
+
+margin-left:auto;
+
+}
+
+.chat-ai{
+
+background:#f3f4f6;
+
+padding:15px 20px;
+
+border-radius:15px;
+
+width:90%;
+
+}
+/* ===========================
+FOOTER
+=========================== */
+
+.footer{
+
+background:#0f172a;
+
+color:white;
+
+padding:60px 0;
+
+margin-top:80px;
+
+}
+
+.footer p{
+
+opacity:.8;
+
+margin-bottom:8px;
+
+}
+/* ===========================
+MODULE DETAIL
+=========================== */
+
+.module-detail-card{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+height:100%;
+
+transition:.3s;
+
+}
+
+.module-detail-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.module-detail-card h3{
+
+margin-bottom:20px;
+
+font-weight:700;
+
+}
+
+.module-detail-card ul{
+
+padding-left:20px;
+
+line-height:2;
+
+margin:25px 0;
+
+}
+/* ===========================
+QUIZ
+=========================== */
+
+.quiz-card{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.progress{
+
+height:12px;
+
+border-radius:20px;
+
+}
+/* SMART LIGHTING */
+
+.lighting-lab,
+.lighting-info{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+#lampIcon{
+
+font-size:180px;
+
+transition:.3s;
+
+}
+
+.lamp-off{
+
+color:#bdbdbd;
+
+}
+
+.lamp-on{
+
+color:#FFD54F;
+
+text-shadow:0 0 40px #FFD54F;
+
+}
+/* ===========================
+SMART LIGHTING DASHBOARD
+=========================== */
+
+.table th{
+
+width:45%;
+
+}
+
+.alert{
+
+border-radius:15px;
+
+}
+
+.card{
+
+border-radius:20px;
+
+}
+
+.table{
+
+margin-bottom:0;
+
+}
+
+#savingValue{
+
+font-size:42px;
+
+font-weight:700;
+
+}
+/* ===================================
+MODULE CARDS
+=================================== */
+
+.module-card{
+
+border:0;
+
+border-radius:20px;
+
+transition:.3s;
+
+}
+
+.module-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.progress{
+
+height:12px;
+
+border-radius:20px;
+
+}
+
+.progress-bar{
+
+font-size:11px;
+
+font-weight:600;
+
+}
+/* ===========================
+CHECKLIST
+=========================== */
+
+.form-check{
+
+padding:12px;
+
+border-bottom:1px solid #ececec;
+
+}
+
+.list-group-item{
+
+padding:18px;
+
+font-size:16px;
+
+}
+/* ===================================
+AI CHAT
+=================================== */
+
+.chat-window{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+min-height:650px;
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+#chatMessages{
+
+flex:1;
+
+overflow-y:auto;
+
+margin-bottom:20px;
+
+}
+
+.ai-message,
+.user-message{
+
+display:flex;
+
+margin-bottom:20px;
+
+}
+
+.user-message{
+
+justify-content:flex-end;
+
+}
+
+.chat-avatar{
+
+width:50px;
+
+height:50px;
+
+border-radius:50%;
+
+background:#16A34A;
+
+color:white;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:24px;
+
+margin-right:15px;
+
+}
+
+.chat-bubble{
+
+padding:15px 20px;
+
+border-radius:18px;
+
+max-width:80%;
+
+line-height:1.7;
+
+}
+
+.chat-bubble.ai{
+
+background:#f3f4f6;
+
+}
+
+.chat-bubble.user{
+
+background:#16A34A;
+
+color:white;
+
+}
+
+.quick-question{
+
+text-align:left;
+
+}
