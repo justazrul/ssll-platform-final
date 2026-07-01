@@ -15,11 +15,9 @@ background:linear-gradient(135deg,#f8fffb,#eefaf2);
 
 .ai-robot{
 
-font-size:220px;
+    font-size:200px;
 
-color:#198754;
-
-animation:floatRobot 4s ease-in-out infinite;
+    color:#198754;
 
 }
 
