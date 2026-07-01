@@ -15,9 +15,13 @@ background:linear-gradient(135deg,#f8fffb,#eefaf2);
 
 .ai-robot{
 
-    font-size:200px;
+    font-size:180px;
 
     color:#198754;
+
+    display:inline-block;
+
+    opacity:0.95;
 
 }
 
