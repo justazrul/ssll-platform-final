@@ -31,3 +31,21 @@ transition:var(--transition);
 color:var(--primary);
 
 }
+/* ===== Navbar Menu Fix ===== */
+
+.ssll-navbar .navbar-nav{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:18px;
+    flex-wrap:nowrap;
+}
+
+.ssll-navbar .nav-item{
+    margin:0;
+}
+
+.ssll-navbar .nav-link{
+    white-space:nowrap;
+    padding:8px 0;
+}
