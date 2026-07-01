@@ -812,3 +812,10 @@ color:white;
 text-align:left;
 
 }
+/* Hero Icon - Modules */
+.hero-module{
+    font-size:180px;
+    color:#198754;
+    opacity:0.95;
+    display:inline-block;
+}
